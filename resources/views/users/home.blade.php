@@ -303,7 +303,7 @@
       </div>
 
     <div class="learning-video-section">
-      <h2>Lebih dari 2000+ Learning Video</h2>
+      <h2 class="text-center">Lebih dari 2000+ Learning Video</h2>
       <p>Kami juga sudah menyediakan banyak pelatihan yang beragam, pelatihan disusun dan dibuat oleh tim kurikulum profesional bersama tim video profesional untuk menghasilkan video dengan kualitas tinggi.</p>
   
       <!-- Kelompok Tab Kedua Menggunakan 'name' -->
@@ -332,8 +332,8 @@
                                 <img src="{{ $course->image ? asset($course->image) : asset('assets/images/image-no-available.jpg') }}" alt="Video Thumbnail" class="img-fluid">
                                 <div class="video-info">
                                     <h5>{{ $course->title }}</h5>
-                                    <p>{{ $course->mentor->name }}</p>
-                                    <span>{{ $course->mentor->title }}</span>
+                                    <p class="mentor">{{ $course->mentor->name }}</p>
+                                    <span>{{ $course->job }}</span>
                                 </div>
                             </div>
                         </div>

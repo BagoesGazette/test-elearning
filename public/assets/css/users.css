@@ -242,7 +242,6 @@ p.section-paragraf {
 }
 
 .learning-video-section {
-    text-align: center;
     padding: 40px 20px;
 }
 
@@ -337,13 +336,16 @@ p.section-paragraf {
 
 .video-info p {
     font-size: 0.9rem;
-    color: #6c757d;
-    margin-bottom: 2px;
+    color: #1A1A1A;
+    font-weight: 500;
+    margin-bottom: 1px;
+    margin-top: 20px;
 }
 
 .video-info span {
     font-size: 0.8rem;
-    color: #6c757d;
+    color: #1A1A1A;
+    font-weight: 400;
 }
 
 
